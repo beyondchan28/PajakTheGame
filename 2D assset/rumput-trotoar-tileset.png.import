@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jalanan-16x16.png-f49b90ef7b38bbfc0722a7e73a8c3899.stex"
+path="res://.import/rumput-trotoar-tileset.png-0cf3a4a3711804165988c1e50cf7695f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D assset/jalanan-16x16.png"
-dest_files=[ "res://.import/jalanan-16x16.png-f49b90ef7b38bbfc0722a7e73a8c3899.stex" ]
+source_file="res://2D assset/rumput-trotoar-tileset.png"
+dest_files=[ "res://.import/rumput-trotoar-tileset.png-0cf3a4a3711804165988c1e50cf7695f.stex" ]
 
 [params]
 

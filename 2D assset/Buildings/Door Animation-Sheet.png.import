@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rumah-warga3-Sheet.png-e12b2e8c04244bf194d359155ffefdf9.stex"
+path="res://.import/Door Animation-Sheet.png-859c83023aca94875e10b4baed203d3b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D assset/Buildings/rumah-warga3-Sheet.png"
-dest_files=[ "res://.import/rumah-warga3-Sheet.png-e12b2e8c04244bf194d359155ffefdf9.stex" ]
+source_file="res://2D assset/Buildings/Door Animation-Sheet.png"
+dest_files=[ "res://.import/Door Animation-Sheet.png-859c83023aca94875e10b4baed203d3b.stex" ]
 
 [params]
 

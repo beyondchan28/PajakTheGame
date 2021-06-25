@@ -1,18 +1,26 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://2D assset/Buildings/rumah-player-64x64.png" type="Texture" id=1]
+[ext_resource path="res://Door.tscn" type="PackedScene" id=2]
 
-[sub_resource type="CapsuleShape2D" id=1]
-radius = 7.0
-height = 46.0
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 9.42588, 27.3223 )
 
 [node name="RumahPlayer" type="StaticBody2D"]
+position = Vector2( -1.52588e-05, -0.8909 )
+collision_layer = 2
+collision_mask = 0
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 3, -21 )
+position = Vector2( 0.603622, -12.5449 )
 texture = ExtResource( 1 )
+offset = Vector2( 3.05176e-05, -18.24 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 5, 0 )
+position = Vector2( 0.489556, -11.6308 )
 rotation = -1.5708
 shape = SubResource( 1 )
+
+[node name="Door" parent="." instance=ExtResource( 2 )]
+position = Vector2( -13.5142, -8.99565 )
+next_scene_path = "res://PlayerInsideHouse.tscn"
